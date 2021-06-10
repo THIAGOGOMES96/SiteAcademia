@@ -1,0 +1,20 @@
+
+<div class = "textoProduto"> 
+<h1> Produtos </h1>
+</div>
+
+<div class="produtos">
+  <% produtos.forEach(produto => { %>
+    <div  class="produto">
+    <img src="../img/<%= produto.foto %>">
+    <p><%= produto.nome %></p>
+    <A  href="<%=produto.botao %>" >  
+    <button  tipo = "button" class="btn-default cart1" > Verificar </button>
+   </a> 
+    </div>
+  <% }) %>
+  </div>
+</div>
+
+
+

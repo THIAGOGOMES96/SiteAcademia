@@ -1,0 +1,45 @@
+.div-select {    
+  width:250px;   
+   overflow:hidden; 
+  } 
+  
+  .div-select select {    
+      
+    background: #fdfdfd;  
+      
+    background-position: 205px center;    
+    width: 150px;   
+    height:48px;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:18px; 
+    padding:13px 20px 13px 12px;  
+    color:rgb(22, 22, 22); 
+    text-indent: 0.01px;   
+    text-overflow: "";      
+    select::-ms-expand {display: none;} 
+  }
+
+  .div-quantity {    
+    width:250px;   
+     overflow:hidden; 
+    } 
+    
+    .div-quantity select {    
+        
+      background: #ffffff;  
+         
+      background-position: 205px center;      
+      width: 150px;      
+      height:48px;
+      font-family:Arial, Helvetica, sans-serif; 
+      font-size:18px; 
+      padding:13px 20px 13px 12px;  
+      color:rgb(12, 12, 12); 
+      text-indent: 0.01px;     
+      text-overflow: ""; 
+      margin-top: 10px;
+    }
+
+
+
+

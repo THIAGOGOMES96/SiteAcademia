@@ -19,8 +19,10 @@ const produtoDoDia = {
 
 const dados = require("./dados/produtos.json");
 
+const dadosUnidades = require("./dados/localUnidades.json");
+
 app.get("/", (req, res) => {
-  res.render("layout/template", {conteudo: "index", produto: produtoDoDia});
+  res.render("layout/template", {conteudo: "index", produto: produtoDoDia, localUnidades: dadosUnidades});
 });
 
 app.get("/produto", (req, res) => {

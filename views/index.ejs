@@ -1,3 +1,4 @@
+
 <section class="produto-do-dia">
   <h1>Produto Do Dia</h1>
   <h2 class="home-produto-titulo"><%= produto.nome %></h2>
@@ -7,3 +8,20 @@
     <%= produto.descricao %>
   </p>
 </section>
+
+<h1>Unidades</h1>
+ 
+<% localUnidades.forEach(dadosUnidades =>{ %>
+
+  <section class="unidades">  
+    <section class="unidade">
+      <p><%= dadosUnidades.nome %> 
+    <div class="google-maps1">
+      <iframe src="<%=dadosUnidades.mapa%>"></iframe>
+    </div> 
+    <p><%=dadosUnidades.planoA%><br>
+    <%=dadosUnidades.planoB%>
+  </section>
+
+  <% }) %>
+

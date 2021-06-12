@@ -11,16 +11,18 @@
 
 <h1>Unidades</h1>
  
-<% localUnidades.forEach(dadosUnidades =>{ %>
+
 
   <section class="unidades">  
+    <% localUnidades.forEach(dadosUnidades =>{ %>
     <section class="unidade">
       <p><%= dadosUnidades.nome %> 
     <div class="google-maps1">
       <iframe src="<%=dadosUnidades.mapa%>"></iframe>
     </div> 
     <p><%=dadosUnidades.planoA%><br>
-    <%=dadosUnidades.planoB%>
+    <%=dadosUnidades.planoB%><br>
+    <%=dadosUnidades.planoC%>
   </section>
 
   <% }) %>

@@ -178,10 +178,9 @@ footer{
 }
 
 .unidades {
-
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
 }
 .unidade{
   margin-bottom: 20px;

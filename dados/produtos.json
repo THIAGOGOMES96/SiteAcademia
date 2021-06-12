@@ -24,9 +24,39 @@
       "botao": "/produto4"
     },
     {
-      "id": 4,
-       "nome": "Colchonete",
-      "foto": "colchonete.jpg",
-      "botao": "/produto4"
+      "id": 5,
+       "nome": "Esteira",
+      "foto": "esteira.jpg",
+      "botao": "/produto5"
+    },
+    {
+      "id": 6,
+       "nome": "Peso + Barra",
+      "foto": "pesobarra.jpg",
+      "botao": "/produto6"
+    },
+    {
+      "id": 7,
+       "nome": "Halteres",
+      "foto": "halteres.jpg",
+      "botao": "/produto7"
+    },
+    {
+      "id": 8,
+       "nome": "Bola para Abdominal",
+      "foto": "bola.jpg",
+      "botao": "/produto8"
+    },
+    {
+      "id": 9,
+       "nome": "Barra de Porta",
+      "foto": "barradeporta.jpg",
+      "botao": "/produto9"
+    },
+    {
+      "id": 10,
+       "nome": "Apoio",
+      "foto": "apoio.jpg",
+      "botao": "/produto10"
     }
 ]

@@ -3,13 +3,24 @@
       "id": 1,
       "nome": "Unidade Batel",
       "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14411.627058303126!2d-49.29701696910689!3d-25.441380440529347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce388fe111323%3A0x59abf083edb128f1!2sBatel%2C%20Curitiba%20-%20PR!5e0!3m2!1spt-BR!2sbr!4v1619021254987!5m2!1spt-BR!2sbr",
-      "planoA": "PLANO BRONZE: R$69,99",
-      "planoB": "PLANO PRATA: R$69,99"
+      "planoA": "PLANO BRONZE: R$29,99",
+      "planoB": "PLANO PRATA: R$69,99",
+      "planoC": "PLANO OURO: R$99,99"
     },
     {
       "id": 2,
       "nome": "Unidade Jardim Das Americas",
-      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14411.627058303126!2d-49.29701696910689!3d-25.441380440529347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce388fe111323%3A0x59abf083edb128f1!2sBatel%2C%20Curitiba%20-%20PR!5e0!3m2!1spt-BR!2sbr!4v1619021254987!5m2!1spt-BR!2sbr",
-      "planoA": "PLANO BRONZE: R$69,99"
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28819.463810170335!2d-49.20335413834993!3d-25.457213912700475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcf020e13b6bbd%3A0x8dd77cf94d61f6bc!2sWeiss%C3%B3polis%2C%20Pinhais%20-%20PR!5e0!3m2!1spt-BR!2sbr!4v1619021574954!5m2!1spt-BR!2sbr",
+      "planoA": "PLANO BRONZE: R$29,99",
+      "planoB": "PLANO PRATA: R$69,99",
+      "planoC": "PLANO OURO: R$99,99"
+    },
+    {
+      "id": 2,
+      "nome": "Unidade Pinhais",
+      "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28819.282815724262!2d-49.24647096601894!3d-25.457969761619587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcfab3daa61121%3A0x3a02a77aa479b2c8!2sJardim%20das%20Am%C3%A9ricas%2C%20Curitiba%20-%20PR%2C%2082590-300!5e0!3m2!1spt-BR!2sbr!4v1619049894170!5m2!1spt-BR!2sbr",
+      "planoA": "PLANO BRONZE: R$29,99",
+      "planoB": "PLANO PRATA: R$69,99",
+      "planoC": "PLANO OURO: R$99,99"
     }
 ]

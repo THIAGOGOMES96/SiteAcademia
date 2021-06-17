@@ -21,6 +21,8 @@ const dados = require("./dados/produtos.json");
 
 const dadosUnidades = require("./dados/localUnidades.json");
 
+
+
 app.get("/", (req, res) => {
   res.render("layout/template", {conteudo: "index", produto: produtoDoDia, localUnidades: dadosUnidades});
 });
@@ -46,9 +48,14 @@ app.get("/produto4", (req, res) => {
 });
 
 app.get("/informacoes", (req, res) => {
-  res.render("layout/templateSobre", { conteudo: "produto", produtos: dados });
+  res.render("layout/templateSobre", { conteudo: "informacoes", informacao: dadosInformacoes });
 });
 
+const dadosInformacoes = {
+  conteudo1: "Nossa missão é transformar o complicado em simples, ou seja,aqui você possui uma comodidade maior emenos burocracia desde os serviços online até o autoatendimento na unidade.",
+  conteudo2: "Somos uma academia que busca facilitar as coisas para o cliente, onde ele pode treinar quando e onde quiser com as melhores opções de instrumentos, seja em casa, ao alugar os nossos produtos, ou em uma de nossas unidades.",
+  conteudo3: "Nossa missão é democratizar o acesso à atividade física de alto padrão. Por isso, todas as nossas unidadessão estruturadas para atender as suas necessidades."
+}
 
 
 app.listen(port, () => {

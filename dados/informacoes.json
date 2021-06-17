@@ -1,8 +1,7 @@
 [
     {
-        "id": 1,
-				"nome": "Anilha",
-        "foto": "anilha.jpg",
-        "botao": "/produto1"
+				"conteudo1": "Nossa missão é transformar o complicado em simples, ou seja,aqui você possui uma comodidade maior emenos burocracia desde os serviços online até o autoatendimento na unidade.",
+        "conteudo2": "Somos uma academia que busca facilitar as coisas para o cliente, onde ele pode treinar quando e onde quiser com as melhores opções de instrumentos, seja em casa, ao alugar os nossos produtos, ou em uma de nossas unidades.",
+        "conteudo3": "  Nossa missão é democratizar o acesso à atividade física de alto padrão. Por isso, todas as nossas unidadessão estruturadas para atender as suas necessidades."
     }
 ]

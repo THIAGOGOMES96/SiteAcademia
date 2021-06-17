@@ -45,6 +45,10 @@ app.get("/produto4", (req, res) => {
   res.sendFile(path.join(__dirname, "./static/html/produtos/produto4.html"));
 });
 
+app.get("/informacoes", (req, res) => {
+  res.render("layout/templateSobre", { conteudo: "produto", produtos: dados });
+});
+
 
 
 app.listen(port, () => {
